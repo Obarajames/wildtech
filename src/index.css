@@ -1,0 +1,213 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "poppins", sans-serif;
+    box-sizing: border-box;
+    height: 100%;
+    background-color: #D7DDEA;
+
+}
+
+/*This is the css for the form*/
+.card {
+    width: 300px;
+    height: 280px;
+    background: #F4F6FB;
+    border: 1px solid white;
+    box-shadow: 10px 10px 64px 0px rgba(180, 180, 207, 0.75);
+    -webkit-box-shadow: 10px 10px 64px 0px rgba(186, 186, 202, 0.75);
+    -moz-box-shadow: 10px 10px 64px 0px rgba(208, 208, 231, 0.75);
+}
+
+.form {
+    padding: 25px;
+}
+
+.card_header {
+    display: flex;
+    align-items: center;
+}
+
+
+.form_heading {
+    padding-bottom: 20px;
+    font-size: 21px;
+    color: #7878bd;
+}
+
+.field {
+    padding-bottom: 10px;
+}
+
+.input {
+    border-radius: 5px;
+    background-color: #e9e9f7;
+    padding: 5px;
+    width: 100%;
+    color: #7a7ab3;
+    border: 1px solid #dadaf7
+}
+
+.input:focus-visible {
+    outline: 1px solid #aeaed6;
+}
+
+.input::placeholder {
+    color: #bcbcdf;
+}
+
+
+button {
+    background-color: #7878bd;
+    margin-top: 10px;
+    font-size: 14px;
+    padding: 7px 12px;
+    height: auto;
+    font-weight: 500;
+    color: white;
+    border: none;
+}
+
+button:hover {
+    background-color: #5f5f9c;
+    cursor: pointer;
+}
+
+.fieldsflex {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 10%;
+}
+
+.auth {
+    margin-left: 43%;
+}
+
+.paragraph {
+    margin-left: -70px;
+}
+
+.field-continue {
+    display: flex;
+    padding-left: 10px;
+}
+
+.sign-comp {
+    display: grid;
+    place-items: center;
+    margin-top: 5%;
+    display: flex;
+    margin-left: 20%;
+    padding-left: 20px;
+}
+
+/* navbat start */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+/* css variables that we are using */
+:root {
+    --font-family: 'Manrope', sans-serif;
+
+    --gradient-text: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+    --gradient-bar: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
+
+    --color-bg: #040C18;
+    --color-footer: #031B34;
+    --color-blog: #042c54;
+    --color-text: #81AFDD;
+    --color-subtext: #FF8A71;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    background: var(--color-bg);
+}
+
+a {
+    color: unset;
+    text-decoration: none;
+}
+
+.gradient__bg {
+    background: -moz-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+
+    /* safari 5.1+,chrome 10+ */
+    background: -webkit-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+
+    /* opera 11.10+ */
+    background: -o-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+
+    /* ie 10+ */
+    background: -ms-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+
+    /* global 92%+ browsers support */
+    background: radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+}
+
+.gradient__text {
+    background: var(--gradient-text);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.section__padding {
+    padding: 4rem 6rem;
+}
+
+.section__margin {
+    margin: 4rem 6rem;
+}
+
+.scale-up-center {
+    -webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+@-webkit-keyframes scale-up-center {
+    0% {
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@keyframes scale-up-center {
+    0% {
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .section__padding {
+        padding: 4rem;
+    }
+
+    .section__margin {
+        margin: 4rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .section__padding {
+        padding: 4rem 2rem;
+    }
+
+    .section__margin {
+        margin: 4rem 2rem;
+    }
+}
